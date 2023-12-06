@@ -1,17 +1,27 @@
-# nicotinic-protection-in-Alzheimer
-ncRNA analysis of nicotinic protection in Alzheimer's
 
+Bioinformatics Analysis of ncRNA and Gene Expression in Neurodegenerative Diseases
+Project Overview
+Welcome to my GitHub repository showcasing my first bioinformatics project. This project focuses on the role of non-coding RNA (ncRNA) and genes in the human brain, particularly in relation to synaptic signaling, energy production, protein homeostasis, and their association with aging and neurodegenerative diseases such as Alzheimer's Disease (AD) and Parkinson's Disease (PD). The project highlights the distinctive effects of these diseases on ncRNA and gene expression compared to normal aging processes.
 
-This comprehensive abstract delves into the role of non-coding RNA (ncRNA) and genes in the human brain, particularly their connection to synaptic signaling, energy production, protein homeostasis, aging, and neurodegenerative diseases like Alzheimer's Disease (AD) and Parkinson's Disease (PD). It highlights how these diseases uniquely impact ncRNA and gene expression compared to normal aging processes. AD is typified by a gradual cognitive decline, beginning with damage in memory-centric brain areas and progressing to widespread cerebral cortex impairment. Its primary pathological markers are beta-amyloid aggregates and hyperphosphorylated Tau protein tangles, leading to neuroinflammation and cell death. PD, in contrast, is characterized by the loss of dopaminergic neurons in the substantia nigra, manifesting in motor and non-motor symptoms, predominantly caused by α-synuclein protein aggregation.
+Key Objectives
+Investigate the Neuroprotective Role of Nicotine: The project hypothesizes that nicotine alters the processing of B2 RNA in AD, contributing to its neuroprotective effects.
 
-Both AD and PD demonstrate involvement of neuronal nicotinic acetylcholine receptors, suggesting potential neuroprotective effects of nicotine. The loss of cholinergic markers, including nicotine binding sites and nAChR subunit expression in various dementias, implies a correlation between cholinergic function and cognitive deficits. Additionally, L-glutamate dysregulation in AD contributes to excitotoxicity and neuronal damage.
+Differential Processing of B2 in AD Models: We confirm the differential processing of B2 in APP transgenic mice, an established model for AD, and assess the impact of chronic nicotine treatment on B2 transcript levels in Mus musculus.
 
-The focus of this thesis is on the impact of nicotine on long non-coding RNA (lncRNA) subclasses, especially retrotransposons like B2 SINE elements, which are vital in neural development, plasticity, cognitive diseases, and stress responses. These retrotransposons replicate via RNA intermediates in a "copy-and-paste" manner and include LINEs, SINEs, and ERVs. For example, murine B1 and B2, as well as human Alu RNA, can regulate gene expression by binding to RNAP II and inhibiting transcription. This research investigates the transcriptional regulation of B2 RNA, its crucial binding regions, and its response to cellular stresses and diseases, with a specific focus on its interaction with cellular machinery like EZH2 during stress responses and its implications in neurodegenerative diseases.
+Expression Analysis of B2-Suppressed Genes: Should differential processing of B2 be evident between nicotine-treated and non-treated mice, we explore how chronic nicotine exposure alters the expression of genes suppressed by B2, associated with the stress response.
 
-The primary objective of this research is to examine the neuroprotective role of nicotine, hypothesizing that it modulates the processing of B2 RNA in AD. To test this hypothesis, the study first confirms the differential processing of B2 in APP transgenic mice, a model for AD. It then assesses the impact of chronic nicotine treatment on B2 transcript levels in Mus musculus. If differential processing of B2 is observed between nicotine-treated and non-treated mice, the study will explore how chronic nicotine affects the expression of B2-suppressed genes associated with stress response.
+Data Sources and Methodology
+Data Acquisition: Sequencing data from the APP transgenic Mus musculus hippocampus by the Zovoilis lab at the University of Lethbridge and publicly available data from sources like the GEO database were used. Key datasets include GEO accession numbers GSE117069 and GSE89899.
 
-Data for this investigation includes sequencing from the APP transgenic Mus musculus hippocampus by the Zovoilis lab at the University of Lethbridge and publicly available data from sources like the GEO database. The bioinformatics analysis involved manual literature searches and NCBI keyword searches, focusing on datasets such as GEO accession numbers GSE117069 and GSE89899. Various tools were employed in the analysis, including the SRA Toolkit from NCBI for data access, BWA software for mapping short RNAs, HISAT2 for longer RNAs with splice isoforms, and Seqmonk for data visualization and analysis.
+Bioinformatics Analysis: Employed manual literature searches and NCBI keyword searches. Analysis tools included the SRA Toolkit from NCBI for data access, BWA software for mapping short RNAs, HISAT2 for longer RNAs with splice isoforms, and Seqmonk for data visualization and analysis.
 
-The results indicate a significant increase in B2 processing in 6-month-old APP transgenic mice and in interneurons and the NAc of nicotine-treated mice. Notably, nicotine-treated mice showed a marked increase in both immediate-B2 regulated and non-B2 regulated gene expressions. However, the study acknowledges limitations like potential artifacts in sequencing data and constraints in the RNA-seq libraries' preparation method.
+Key Findings
+Increased B2 Processing: A significant increase in B2 processing was observed in 6-month-old APP transgenic mice, and in interneurons and the NAc of nicotine-treated mice.
 
-In conclusion, the study suggests that nicotine may offer neuroprotective effects against dementia by upregulating stress response genes, opening pathways for future research on the impact of recreational drugs on SINE elements in neurodegenerative diseases and potential new treatment and prevention strategies.
+Gene Expression Alterations: Nicotine-treated mice demonstrated a marked increase in both immediate-B2 regulated and non-B2 regulated gene expressions, suggesting potential neuroprotective effects of nicotine against dementia.
+
+Limitations
+The study acknowledges potential limitations, including artifacts in sequencing data and constraints in RNA-seq libraries' preparation methods.
+
+Conclusion and Future Work
+This project suggests that nicotine might offer neuroprotective effects against dementia by upregulating stress response genes. It opens pathways for future research on the impact of recreational drugs on SINE elements in neurodegenerative diseases and potential new treatment and prevention strategies.
